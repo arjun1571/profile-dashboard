@@ -2,6 +2,7 @@ import {createBrowserRouter,} from "react-router-dom";
 import Main from "../LayOut/Main";
 import Password from "../Page/PassWord/Password";
 import Notification from "../Page/Notification/Notification";
+import ResetPass from "../Page/ResetPass/ResetPass";
 
 
 export const routes =  createBrowserRouter([
@@ -20,6 +21,11 @@ export const routes =  createBrowserRouter([
             {
                 path:"/notification",
                 element: <Notification></Notification>
+            }
+            ,
+            {
+                path:"/resetpassword",
+                element: <ResetPass></ResetPass>
             }
         ]
     
