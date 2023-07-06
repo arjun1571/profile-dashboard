@@ -8,12 +8,12 @@ const ResetPass = () => {
             <h1 className='lg:text-4xl text-2xl font-bold'>My Profile</h1>
             <p className='mx-3'><small>Member since 2023</small></p>
         </div>
-        <div className='border rounded-lg p-5 lg:p-10 w-full h-full lg:flex  '>
-            <div className=''>
+        <div className='border rounded-lg p-5 lg:p-10 w-full h-full lg:flex '>
+            <div className='mt-10'>
                 <img src={profile} alt=""  className=''/>
                 <p className='lg:mx-12 mx-3 mt-2' style={{color:"#3F8825"}}>EDIT</p>
             </div>
-            <div className='lg:mx-10 mx-3 border rounded-lg p-2 lg:p-5'>
+            <div className='lg:mx-10 mx-3 border rounded-lg p-2 lg:p-5 mt-10'>
                 <div >
                     <h1 className='text-lg font-bold'>Password</h1>
                     <p>Use the button below to get an email with a link to change your password.</p> 
@@ -31,8 +31,8 @@ const ResetPass = () => {
                         New password
                     </label>
                     <div class="flex items-center">
-                        <input type="checkbox" value="" class="w-4 h-4 " />
-                        <label  class="ml-2 text-sm"><small>show password</small></label>
+                        <input type="checkbox" value="" class="w-4 h-4 accent-green-700" />
+                        <label  class="ml-2 text-sm "><small>show password</small></label>
                     </div>
                     </div>
                     <input className="shadow lg:w-[800px] w-full appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"  type="password" />
@@ -43,7 +43,7 @@ const ResetPass = () => {
                     </label>
                     <input className="shadow appearance-none borde rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="password"/>
                     <div class="flex items-center">
-                        <input type="checkbox" value="" class="w-4 h-4 bg-green-700" />
+                        <input type="checkbox" value="" class="w-4 h-4 accent-green-700" />
                         <label  class="ml-2 text-sm"><small>All devices will be required to sign in with new password</small></label>
                     </div>
                     </div>

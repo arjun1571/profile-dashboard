@@ -16,11 +16,11 @@ const Password = () => {
                 <p className='mx-3'><small>Member since 2023</small></p>
             </div>
             <div className='border rounded-lg p-5 lg:p-10 w-full h-full flex '>
-                <div className=''>
+                <div className='mt-10'>
                     <img src={profile} alt=""  className=''/>
                     <p className='lg:mx-12 mx-3 mt-2' style={{color:"#3F8825"}}>EDIT</p>
                 </div>
-                <div className='lg:mx-10 mx-3 border rounded-lg p-2 lg:p-5 flex '>
+                <div className='lg:mx-10 mx-3 border rounded-lg p-2 lg:p-5 flex mt-10 '>
                     <div >
                         <h1 className='text-lg font-bold'>Password</h1>
                         <p>Use the button below to get an email with a link to change your password or edit button.</p>
