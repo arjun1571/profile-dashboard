@@ -47,7 +47,7 @@ const ResetPass = () => {
                         <label  class="ml-2 text-sm"><small>All devices will be required to sign in with new password</small></label>
                     </div>
                     </div>
-                    <div className="  items-center justify-between">
+                    <div className="items-center justify-between">
                     <button className="bg-green-700 hover:bg-green-700 text-white w-24 lg:w-32 rounded-3xl  py-2 px-4 focus:outline-none focus:shadow-outline" type="button">
                         Save 
                     </button>
