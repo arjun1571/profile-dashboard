@@ -8,7 +8,7 @@ const Main = () => {
             <div className=''>
                 <LeftSide></LeftSide>
             </div>
-            <div className='p-20'>
+            <div className='mt-12'>
                 <Outlet></Outlet>
             </div>
         </div>

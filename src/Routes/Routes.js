@@ -10,6 +10,10 @@ export const routes =  createBrowserRouter([
         element: <Main></Main>,
         children:[
             {
+                path:"/",
+                element: <Password></Password>
+            },
+            {
                 path:"/password",
                 element: <Password></Password>
             },
